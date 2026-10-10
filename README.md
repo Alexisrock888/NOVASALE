@@ -11,6 +11,10 @@ npm run dev
 
 Para generar la versión de producción: `npm run build`.
 
+## Publicación
+
+GitHub Actions compila y publica automáticamente los cambios de `main` en GitHub Pages. La URL del sitio es <https://alexisrock888.github.io/NOVASALE/>. En el primer despliegue, si GitHub solicita habilitar Pages, selecciona **Settings → Pages → Source: GitHub Actions**.
+
 ## Acceso de demostración
 
 - Cliente: `cliente@novasale.co` · `Cliente123`.
