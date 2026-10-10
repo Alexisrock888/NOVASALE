@@ -13,7 +13,7 @@ Para generar la versión de producción: `npm run build`.
 
 ## Publicación
 
-GitHub Actions compila y publica automáticamente los cambios de `main` en GitHub Pages. La URL del sitio es <https://alexisrock888.github.io/NOVASALE/>. En el primer despliegue, si GitHub solicita habilitar Pages, selecciona **Settings → Pages → Source: GitHub Actions**.
+GitHub Actions compila y publica automáticamente los cambios de `main` en GitHub Pages. La URL del sitio es <https://alexisrock888.github.io/NOVASALE/>. Para que se sirva la compilación (y no el código fuente), selecciona **Settings → Pages → Build and deployment → Source: GitHub Actions** en el repositorio. Después, ejecuta el workflow **Deploy NovaSale to GitHub Pages** desde la pestaña **Actions**.
 
 ## Acceso de demostración
 
